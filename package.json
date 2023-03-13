@@ -1,0 +1,22 @@
+{
+  "name": "justtheme-dark-for-vscode",
+  "displayName": "JustTheme",
+  "description": "Dark color theme with pink accents",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JustTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JustTheme-color-theme.json"
+      }
+    ]
+  }
+}
